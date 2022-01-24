@@ -58,46 +58,44 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
                     as="h3"
                     className="text-lg leading-6 font-medium text-gray-900"
                   >
-                    How to play
+                    Joga oinsaa
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Guess the WORDLE in 6 tries. After each guess, the color
-                      of the tiles will change to show how close your guess was
-                      to the word.
+                      Ita bele koko dala 6 atu siik WORDLE. Depois kada koko, letra nia kor troka hodi hatudu se ita nia siik besik liafuan sekretu.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="W" status="correct" />
-                      <Cell value="E" />
-                      <Cell value="A" />
-                      <Cell value="R" />
-                      <Cell value="Y" />
-                    </div>
-                    <p className="text-sm text-gray-500">
-                      The letter W is in the word and in the correct spot.
-                    </p>
-
-                    <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="P" />
+                      <Cell value="K" status="correct" />
                       <Cell value="I" />
-                      <Cell value="L" status="present" />
-                      <Cell value="O" />
-                      <Cell value="T" />
+                      <Cell value="N" />
+                      <Cell value="U" />
+                      <Cell value="R" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter L is in the word but in the wrong spot.
+                      Letra K iha liafuan sekretu iha pozisaun loos.
                     </p>
 
                     <div className="flex justify-center mb-1 mt-4">
-                      <Cell value="V" />
-                      <Cell value="A" />
-                      <Cell value="G" />
-                      <Cell value="U" status="absent" />
+                      <Cell value="H" />
                       <Cell value="E" />
+                      <Cell value="T" status="present" />
+                      <Cell value="A" />
+                      <Cell value="N" />
                     </div>
                     <p className="text-sm text-gray-500">
-                      The letter U is not in the word in any spot.
+                      Letra T iha liafuan sekretu maibee pozisaun sala.
+                    </p>
+
+                    <div className="flex justify-center mb-1 mt-4">
+                      <Cell value="F" />
+                      <Cell value="I" />
+                      <Cell value="T" />
+                      <Cell value="U" status="absent" />
+                      <Cell value="N" />
+                    </div>
+                    <p className="text-sm text-gray-500">
+                      Letra U laos iha liafuan sekretu.
                     </p>
                   </div>
                 </div>
